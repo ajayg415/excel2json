@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Excel To JSON to Datatable</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div>
+		<input type='file' id='fileInput' />
+	</div>
+	<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search for names.." title="Type in a name">
+	<div id='myTable'></div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
